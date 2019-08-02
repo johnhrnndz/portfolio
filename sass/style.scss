@@ -1,0 +1,91 @@
+$primarycolor: #263f73;
+$secondarycolor: #147990;
+$headerfont: "Cabin";
+
+.navbar-brand,
+.navbar-menu {
+  background-color: $primarycolor;
+  font-family: $headerfont;
+}
+
+.has-same-height
+.card {
+  height: 100%;
+  overflow: hidden;
+}
+
+.hero.has-background {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-background {
+  position: absolute;
+  object-fit: cover;
+  object-position: center center;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-background.is-transparent {
+  opacity: .6;
+}
+
+.about-p {
+  text-align: justify;
+}
+
+.easter-egg {
+  color: #363636;
+}
+
+.buttons {
+    margin-top: 1.5rem;
+}
+
+.card-content h3 {
+  text-align: center;
+}
+
+.table-profile td,
+th {
+  border: 0;
+}
+
+.table-profile td:first-of-type {
+  font-weight: bold;
+}
+
+.skills-content .media {
+  margin: 0;
+  padding: 4px;
+  border: 0;
+}
+
+.skills-content .progress {
+  height: 4px;
+}
+
+.custom-tags {
+  text-align: center;
+  display: block;
+}
+
+.portfolio-container .card {
+  margin-bottom: 2em;
+}
+
+.section-heading {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 3em;
+}
+
+.section {
+    padding: 1.5rem;
+}
+.resume-img {
+    width: 45%;
+    height: 45%;
+    flex-grow: 0;
+}
